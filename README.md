@@ -64,3 +64,21 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+------------------------------------------------------------------------------------------------
+service
+------------
+[Unit]
+Description=Laravel Queue Worker
+After=network.target
+
+[Service]
+Restart=always
+WorkingDirectory=/home/ubuntu/actions-runner/_work/cupon-wheel/cupon-wheel/dev
+ExecStart=/usr/bin/php artisan serve --port=8008
+
+[Install]
+WantedBy=multi-user.target
+-------------------------------------------------
+
