@@ -6,7 +6,7 @@ on:
     
 jobs:
   build:
-    runs-on: ideaux-dev-vps
+    runs-on: dev-vps
 
     steps:
       - name: Cleaning Up files
