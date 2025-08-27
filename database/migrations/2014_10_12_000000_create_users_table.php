@@ -27,9 +27,9 @@ return new class extends Migration
         User::insert(
             [
                 [
-                    'name' => 'ideaux',
-                    'email' => 'adminideaux@gmail.com',
-                    'password' => Hash::make('98659865'),
+                    'name' => 'Admin',
+                    'email' => 'vizosadmin@gmail.com',
+                    'password' => Hash::make('Admin@123'),
                     'type' => 2,
                     'role' => 2,
                     'status' => 1,
@@ -39,9 +39,9 @@ return new class extends Migration
 
                 ],
                 [
-                    'name' => 'zicafe',
-                    'email' => 'adminzicafe@gmail.com',
-                    'password' => Hash::make('123123123'),
+                    'name' => 'Vizos',
+                    'email' => 'vizocafe@gmail.com',
+                    'password' => Hash::make('Admin@123'),
                     'type' => 2,
                     'role' => 2,
                     'status' => 1,
@@ -52,7 +52,7 @@ return new class extends Migration
                 [
                     'name' => 'Deliver',
                     'email' => 'delivery@gmail.com',
-                    'password' => Hash::make('98659865'),
+                    'password' => Hash::make('Admin@123'),
                     'type' => 3,
                     'role' => 2,
                     'status' => 2,
