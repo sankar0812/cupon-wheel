@@ -19,7 +19,7 @@
     <div class="col-md-6 " >
         <h6 style="margin: 0; padding: 0; font-size: 5px;">Tea with-sugar</h6>
         <h6 style="margin: 0; padding: 0; font-size: 5px;">Nagercoil</h6>
-        <h6 style="margin: 0; padding: 0; font-size: 5px;">Ideaux</h6>
+        <h6 style="margin: 0; padding: 0; font-size: 5px;">Vizos</h6>
         <h6 style="margin: 0; padding: 0; font-size: 5px;">1 litre</h6>
     </div>
 </div>
